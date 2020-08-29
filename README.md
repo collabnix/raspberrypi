@@ -4,10 +4,32 @@ Do you want to get started with Linux and Raspberry Pi? This is a right place to
 
 # Raspberry Pi 101
 
-- [What is Raspberry Pi?]()
-- [What OS does it run?]()
-- [What are the components of Raspberry Pi 3 Model B?]()
-- [Getting Started with Pi Setup]()
+
+<details> 
+  <summary>What is Raspberry Pi? </summary>
+  Raspberry Pi is credit-card sized computer system.
+
+  </table>
+</details>
+
+<details> 
+  <summary>What are the components of Raspiberry Pi 3 Model B? </summary>
+  Its components are listed below:
+  - USB Port x4
+  - LAN port
+  - In-built WiFi Module
+  - Display Port
+  - HDMI Port for Video Output
+  - Charging Port
+  - Memory Card
+  - Audio & Video Jack
+  - MicroSD Slot
+  - On-board Bluetooth 4.1 WiFI
+  GPIO Pins
+  </table>
+</details>
+
+
 
 
 
