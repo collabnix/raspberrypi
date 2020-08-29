@@ -38,7 +38,7 @@ Do you want to get started with Linux and Raspberry Pi? This is a right place to
 
   </table>
 </details>
-![My Image](https://github.com/collabnix/raspberrypi/blob/master/images/IMG_20200829_125708.jpg)
+
 
 <details> 
   <summary>Which OS does Raspberry Pi run? </summary>
