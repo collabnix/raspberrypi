@@ -1,5 +1,6 @@
 # Getting Started with Linux on Raspberry Pi
 
+
 Do you want to get started with Linux and Raspberry Pi? This is a right place to be.
 
 # Raspberry Pi 101
@@ -14,6 +15,7 @@ Do you want to get started with Linux and Raspberry Pi? This is a right place to
 
 <details> 
   <summary>What are the components of Raspiberry Pi 3 Model B? </summary>
+  
   Its components are listed below:<br>
   - USB Port x4<br>
   - LAN port<br>
@@ -26,7 +28,9 @@ Do you want to get started with Linux and Raspberry Pi? This is a right place to
   - MicroSD Slot<br>
   - On-board Bluetooth 4.1 WiFI<br>
   GPIO Pins<br>
+  ![My Image](https://github.com/collabnix/raspberrypi/blob/master/images/IMG_20200829_124256.jpg)
   </table>
+  
 </details>
 
 <details> 
