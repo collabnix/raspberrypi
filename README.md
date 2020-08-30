@@ -51,6 +51,38 @@ Do you want to get started with Linux and Raspberry Pi? This is a right place to
   </table>
 </details>
 
+<details> 
+  <summary>How to setup a static IP on Raspberry Pi?</summary>
+
+
+* Open DHCP config for editing
+
+```sh
+sudo vim /etc/dhcpcd.conf
+```
+
+* Add your network interface at the top (run `route -n` to check yours)
+
+
+```sh
+# eth0 or whatever interface you use
+interface wlan0
+
+# This will always be your IP when you connect to this gateway
+static ip_address=192.168.1.99
+
+# Default gateway IP
+static routers=192.168.1.1
+
+# Space separated list of DNS servers
+# The ones added here are Cloudflare servers
+static domain_name_servers=1.1.1.1 1.0.0.1
+```
+
+* Save and reboot!
+
+  </table>
+</details>
 
 
 
