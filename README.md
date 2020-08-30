@@ -1,7 +1,7 @@
-# Getting Started with Linux on Raspberry Pi
+# Getting Started with Raspberry Pi
 
 
-Do you want to get started with Linux and Raspberry Pi? This is a right place to be.
+Do you want to get started with Raspberry Pi? This is a right place to be.
 
 # Pi 101
 
