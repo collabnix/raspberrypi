@@ -34,7 +34,7 @@ Do you want to get started with Linux and Raspberry Pi? This is a right place to
 </details>
 
 <details> 
-  <summary>What to connect Raspberry Pi to a Monitor? </summary>
+  <summary>How to connect Raspberry Pi to a Monitor? </summary>
   Using HDMI cable
   
 ![My Image](https://github.com/collabnix/raspberrypi/blob/master/images/IMG_20200829_125708.jpg)
