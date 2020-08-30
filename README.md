@@ -3,7 +3,7 @@
 
 Do you want to get started with Linux and Raspberry Pi? This is a right place to be.
 
-# Raspberry Pi 101
+# Pi 101
 
 
 <details> 
