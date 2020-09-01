@@ -85,7 +85,52 @@ static domain_name_servers=1.1.1.1 1.0.0.1
 </details>
 
 
+<details> 
+  <summary>How to access Raspberry Pi from an external network?</summary>
+  You need to go into your router settings and set up port forwarding to the static IP of your raspberry pi, which you can get by running the following command:
+  `hostname -I`
+
+If you want to ssh into your rpi from external network then use the static IP and port 22, if any other service then use the same IP with the port of your choice.
+
+  </table>
+</details>
 
 
 
+<details> 
+  <summary>How to setup SSH in raspberry Pi?</summary>
 
+* Run the following command and enable ssh:
+
+```sh
+sudo raspi-config
+```
+
+* Get your local IP
+
+```sh
+hostname -I
+
+# or
+ip addr | grep 192.168
+```
+
+* Go to raspberry PI and generate the SSH key pair (id_rsa and id_rsa.pub)
+
+```sh
+ssh-keygen -t rsa
+```
+
+* Add the key in known_hosts
+
+```sh
+cat id_rsa.pub >> ~/.ssh/known_hosts
+```
+
+* Do not keep the private key on the rpi for safety concerns. Copy it over to the client machine. To connect, run:
+
+```sh
+ssh -i id_rsa pi@<ip-addr-of-pi>
+```
+  </table>
+</details>
