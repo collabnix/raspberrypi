@@ -98,7 +98,7 @@ If you want to ssh into your rpi from external network then use the static IP an
 
 
 <details> 
-  <summary>How to setup SSH in raspberry Pi</summary>
+  <summary>How to setup SSH in raspberry Pi?</summary>
 
 * Run the following command and enable ssh:
 
@@ -114,12 +114,6 @@ hostname -I
 # or
 ip addr | grep 192.168
 ```
-
-* You can now SSH!
-
----
-
-## Setting up SSH keys
 
 * Go to raspberry PI and generate the SSH key pair (id_rsa and id_rsa.pub)
 
