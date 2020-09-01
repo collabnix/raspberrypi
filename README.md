@@ -134,3 +134,60 @@ ssh -i id_rsa pi@<ip-addr-of-pi>
 ```
   </table>
 </details>
+
+<details> 
+  <summary>How to view the Raspberry Pi display wirelessly?</summary>
+  This can be done by using a VNC server on the raspberry pi and a VNC viewer on the client computer. The most secure way of doing this is using VNC over SSH.
+
+  * VNC over SSH tunnel. On the client machine run:
+
+```sh
+ssh -L 5901:localhost:5901 -N -f <distant_user>@<server_ip>
+```
+
+* Make sure the pi is running a vncserver on localhost only:
+
+```sh
+# run this first
+vncserver :1 -geometry 1280x800 -depth 16 -localhost -nolisten tcp
+```
+
+* Connect to the vnc using client machine
+
+```sh
+xtightvncviewer localhost:1 -compresslevel 9 -quality 4 -depth 8
+```
+
+  </table>
+</details>
+
+<details> 
+  <summary>How to create a VPN server using Raspberry Pi?</summary>
+
+  * Install openvpn and wget
+
+* Get the openvpn installation script (only runs on Ubuntu, Fedora, CentOS) chmod and execute it as a superuser
+
+```sh
+wget https://raw.githubusercontent.com/Angristan/openvpn-install/master/openvpn-install.sh
+
+chmod +x openvpn-install.sh
+
+sudo ./openvpn-install.sh
+```
+
+* This will create a `.ovpn` file. Copy it to the client.
+
+* In the client machine use this to connect to the VPN:
+
+```sh
+openvpn <name-of-conf>.ovpn
+
+# or copy it here
+sudo cp Downloads/*.ovpn /etc/openvpn/client/client.conf
+
+openvpn /etc/openvpn/client/client.conf
+```
+
+  </table>
+</details>
