@@ -223,3 +223,27 @@ pihole -w <domain>
 
   </table>
 </details>
+
+<details> 
+  <summary>What are some uses of Raspberry Pi?</summary>
+
+* NAS (Network Attached Storage) server using `OMV` ([OpenMediaVault](https://www.openmediavault.org/))
+
+* Media streaming OS using `OSMC` ([Open Source Media Center](https://osmc.tv/)) or Kodi Media streming server
+
+* Network Wide Adblocker using [Pi-Hole](https://pi-hole.net/)
+
+* VPN (Virtual Private Network) server using [openvpn](https://github.com/Nyr/openvpn-install)
+
+* Tor Relay and a personal tor network using [tor-box](https://github.com/CMoncur/tor_box)
+
+* Lightweight Kubernetes cluster using [k3s](https://github.com/rancher/k3s)
+
+* A retro gaming machine/emulator using [RetroPie](https://retropie.org.uk/)
+
+* An ethical hacking drop box since [Kali Linux](https://www.offensive-security.com/kali-linux-arm-images/) is available for 32 and 64 bit ARM architecture
+
+* A telegram bot server which is very easy to setup since it does not need direct network ingress
+
+  </table>
+</details>
