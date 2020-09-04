@@ -191,3 +191,35 @@ openvpn /etc/openvpn/client/client.conf
 
   </table>
 </details>
+
+<details> 
+  <summary>How to setup an adblocker on raspberry pi?</summary>
+
+* A single command installation can be done by the following URL
+
+```
+curl -sSL https://install.pi-hole.net | bash
+```
+
+* Make sure you have a static IP first
+
+* Go through the default options in the installation
+
+* Admin portal password reset
+
+```
+pihole -a -p
+```
+
+* Adding domains for blocklist
+
+```
+pihole -w <domain>
+```
+
+* For bulk adding URLs with domains go to the admin portal: `Group Management > Adlists`. In the Address, copy paste the contents on [./blocklist.txt]
+
+* After adding domains, update the lists using `pihole -g` or from the tools section of the admin portal (<IP>/admin).
+
+  </table>
+</details>
