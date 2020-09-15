@@ -260,5 +260,7 @@ pihole -w <domain>
 
   During the process of the installation, you will have to point a DNS domain name to your raspberry pi. Use the same link as a sevrer URL in your [jitsi-meet mobile application to use your server.](https://jitsi.org/downloads/) 
 
+  [Here](https://www.youtube.com/watch?v=IQRwtUamHQU&t=1078s) is a video that might help with the installation.
+
   </table>
 </details>
