@@ -245,5 +245,22 @@ pihole -w <domain>
 
 * A telegram bot server which is very easy to setup since it does not need direct network ingress
 
+* A chat, audio and video conferencing server using [jitsi-meet](https://jitsi.github.io/handbook/docs/devops-guide/devops-guide-quickstart)
+
+  </table>
+</details>
+
+<details> 
+  <summary>How to create an audio/video conferencing server on a Raspberry Pi?</summary>
+  Jitsi is a opensource server and video-bridge for hosting a chat, audio and video conferencing server on a raspberry pi.
+  It can be deployed easily on any debian based distro but requires port-forwarding to be enabled from the router settings.
+
+  * [Install jitsi-meet with docker](https://jitsi.github.io/handbook/docs/devops-guide/devops-guide-docker)
+  * [Install jitsi-meet the regular way](https://jitsi.github.io/handbook/docs/devops-guide/devops-guide-quickstart)
+
+  During the process of the installation, you will have to point a DNS domain name to your raspberry pi. Use the same link as a sevrer URL in your [jitsi-meet mobile application to use your server.](https://jitsi.org/downloads/) 
+
+  [Here](https://www.youtube.com/watch?v=IQRwtUamHQU&t=1078s) is a video that might help with the installation.
+
   </table>
 </details>
