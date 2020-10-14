@@ -271,3 +271,25 @@ pihole -w <domain>
 
   </table>
 </details>
+
+<details> 
+  <summary>Mount Raspberry Pi filesystem on your machine</summary>
+  If you have Raspbian OS on your raspberry Pi with SSH enabled, it comes with a protocol
+ known as `sftp`, which stands for `SSH file transfer protocol`. You can mount your pi filesystem on your machine by using any file manager and adding the following network location:
+
+ ```sh
+ sftp://<ip>:<folder_path>
+ ```
+
+To mount the pi filesystem on a directory rather than a separate network drive, you can use `SSHFS` or the SSH filesystem (which uses sftp internally):
+
+```sh
+# host machine
+sudo apt install sshfs
+mkdir pimount 
+sshfs <piuser>:<piIP>:<folderpath> pimount
+```
+
+
+  </table>
+</details>
