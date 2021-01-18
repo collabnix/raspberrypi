@@ -13,8 +13,24 @@ Do you want to get started with Raspberry Pi? This is a right place to be.
   </table>
 </details>
 
+<details>
+  <summary>What are the various versions/models of Raspberry Pi that are widely used? </summary>
+  These are the following models of Raspberry Pi:<br>
+  - Raspberry Pi Zero<br>
+  - Raspberry Pi Zero W<br>
+  - Raspberry Pi 3 Model A<br>
+  - Raspberry Pi 3 Model B<br>
+  - Raspberry Pi 3 Model A+<br>
+  - Raspberry Pi 3 Model B+<br>
+  - Raspberry Pi 4 2GB RAM<br>
+  - Raspberry Pi 4 4GB RAM<br>
+  - Raspberry Pi 4 8GB RAM<br>
+    
+  </table>
+ </details>
+ 
 <details> 
-  <summary>What are the components of Raspiberry Pi 3 Model B? </summary>
+  <summary>What are the components of Raspberry Pi 3 Model B? </summary>
   
   Its components are listed below:<br>
   - USB Port x4<br>
@@ -46,7 +62,10 @@ Do you want to get started with Raspberry Pi? This is a right place to be.
 
 <details> 
   <summary>Which OS does Raspberry Pi run? </summary>
-  Raspbian OS
+  Raspberry Pi OS (previously Raspbian OS)
+  Ubuntu 20.10/20.04 LTS (currently only supports Raspberry Pi 4B 4GB/8GB RAM)
+  Ubuntu Mate 20.04 LTS 
+  
 
   </table>
 </details>
@@ -137,7 +156,7 @@ ssh -i id_rsa pi@<ip-addr-of-pi>
 
 <details> 
   <summary>How to view the Raspberry Pi display wirelessly?</summary>
-  This can be done by using a VNC server on the raspberry pi and a VNC viewer on the client computer. The most secure way of doing this is using VNC over SSH.
+  This can be done by using a VNC server on the Raspberry Pi and a VNC viewer on the client computer. The most secure way of doing this is using VNC over SSH.
 
   * VNC over SSH tunnel. On the client machine run:
 
@@ -258,7 +277,7 @@ pihole -w <domain>
   * [Install jitsi-meet with docker](https://jitsi.github.io/handbook/docs/devops-guide/devops-guide-docker)
   * [Install jitsi-meet the regular way](https://jitsi.github.io/handbook/docs/devops-guide/devops-guide-quickstart)
 
-  During the process of the installation, you will have to point a DNS domain name to your raspberry pi. Use the same link as a sevrer URL in your [jitsi-meet mobile application to use your server.](https://jitsi.org/downloads/) 
+  During the process of the installation, you will have to point a DNS domain name to your raspberry pi. Use the same link as a server URL in your [jitsi-meet mobile application to use your server.](https://jitsi.org/downloads/) 
 
   [Here](https://www.youtube.com/watch?v=IQRwtUamHQU&t=1078s) is a video that might help with the installation.
 
